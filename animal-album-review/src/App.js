@@ -35,6 +35,10 @@ export default function App($app) {
         this.render();
     };
 
+    this.render = () => {
+        
+    }
+
     const init = async () => {
         try {
             const initialPhotos = await request();
